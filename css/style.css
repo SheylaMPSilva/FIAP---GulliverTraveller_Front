@@ -1,0 +1,220 @@
+/**************************
+    Filename: custom.css
+    Author: Sheyla m P Silva
+    Date: May 30, 21;
+
+    Index
+    1. General
+    2. Header
+    3. Hero
+    4. Cards
+    5. Hoteis
+    6.Footer
+**************************/
+
+/**************************
+    1. General
+**************************/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1.6rem;
+  background-color: #000000;
+}
+
+/**************************
+   2. Header
+**************************/
+nav {
+  padding: 50px;
+  background-color: #000000;
+  box-shadow: 0 0 10px white;
+  cursor: pointer;
+  height: 80px;
+}
+
+.menu {
+  text-decoration: none;
+  color: #FF652F;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.suspenso {
+  background-color: #272727;
+  font-size: 1.3rem;
+  color: #14A76C;
+}
+
+.menu_h:hover {
+  color: #fff;
+}
+
+
+.hamburger {
+  color: #FF652F;
+  background-color: #FF652F;
+}
+
+/**************************
+   3. Hero
+**************************/
+.hero {
+  height: 400px;
+  text-align: center;
+}
+
+.info_1 {
+  color: #FF652F;
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 100px;
+  font-family: 'Aleo', serif;
+}
+
+.info_2 {
+  color: #747474;
+  font-size: 3rem;
+  padding-top: 20px;
+}
+
+.info_3 {
+  color: #ffff;
+  font-size: 2rem;
+  padding: auto;
+}
+
+/**************************
+   4. Cards
+**************************/
+.bg_card {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.tema_card {
+  color: #FF652F;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.info_card {
+  color: #fff;
+  font-size: 1.7rem;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.botao_card {
+  background-color: #000;
+  color: #FF652F;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: medium;
+  margin-left: auto;
+  padding: 5px 20px;
+  border-radius: 20px;
+  filter: brightness(90%);
+}
+
+
+/**************************
+   5. Hoteis
+**************************/
+
+#mapa {
+  height: 800px;
+  width: 100%;
+  margin-right: auto;
+}
+
+#map {
+  height: 1000px;
+  width: 100%;
+  margin-right: auto;
+}
+
+
+#info_hotel1 {
+  height: 800px;
+  width: 50%;
+  display: block;
+  margin-right: auto;
+  color: black;
+  background-color: aqua;
+}
+
+label {
+  background-color: #FF652F;
+}
+
+h4 {
+  color:#FF652F;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.infowindow {
+  width: 120px;
+  
+}
+
+label {
+  color: #FF652F;
+}
+
+h3 {
+font-size: 1.75rem;
+align-items: center;
+background: none;
+margin-top: 100px;
+padding-left: 4rem;
+padding-right: 4rem;
+}
+
+span {
+color: coral;
+}
+
+.site_hotel {
+  margin: 80px;
+  margin-left: 300px;
+}
+
+/**************************
+   6. Footer
+**************************/
+
+.rodape {
+  background-color: #272727;
+  height: 60px;
+  padding-top: 20px;
+}
+
+.icones {
+  color: #272727;
+  padding: 10px;
+}
+
+.conexao {
+  color: #14A76C;
+  padding-top: 10px;
+}
+
+/**************************
+   <-- FIM -->
+**************************/
